@@ -11,6 +11,9 @@
 		4C3763862C0BCFB9005ACAA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3763852C0BCFB9005ACAA4 /* ContentView.swift */; };
 		4C3763882C0BCFBB005ACAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3763872C0BCFBB005ACAA4 /* Assets.xcassets */; };
 		4C37638B2C0BCFBB005ACAA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C37638A2C0BCFBB005ACAA4 /* Preview Assets.xcassets */; };
+		4CFE35762C14768C00E21859 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE35752C14768C00E21859 /* HomeView.swift */; };
+		4CFE35782C1476A300E21859 /* SetCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE35772C1476A300E21859 /* SetCoordinateView.swift */; };
+		4CFE357A2C1476AD00E21859 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE35792C1476AD00E21859 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4C3763852C0BCFB9005ACAA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C3763872C0BCFBB005ACAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C37638A2C0BCFBB005ACAA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CFE35752C14768C00E21859 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4CFE35772C1476A300E21859 /* SetCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCoordinateView.swift; sourceTree = "<group>"; };
+		4CFE35792C1476AD00E21859 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				4C3763852C0BCFB9005ACAA4 /* ContentView.swift */,
 				4C3763872C0BCFBB005ACAA4 /* Assets.xcassets */,
 				4C3763892C0BCFBB005ACAA4 /* Preview Content */,
+				4CFE35752C14768C00E21859 /* HomeView.swift */,
+				4CFE35772C1476A300E21859 /* SetCoordinateView.swift */,
+				4CFE35792C1476AD00E21859 /* MapView.swift */,
 			);
 			path = iOSAppMuehlberger;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFE35762C14768C00E21859 /* HomeView.swift in Sources */,
+				4CFE35782C1476A300E21859 /* SetCoordinateView.swift in Sources */,
+				4CFE357A2C1476AD00E21859 /* MapView.swift in Sources */,
 				4C3763862C0BCFB9005ACAA4 /* ContentView.swift in Sources */,
 				4C3763842C0BCFB9005ACAA4 /* iOSAppMuehlbergerApp.swift in Sources */,
 			);

@@ -9,11 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            HomeView().tabItem { Text("home") }
+            SetCoordinateView().tabItem { Text("set coordinates") }
+            MapView(latitude: 1, lonitude: 2).tabItem { Text("set map") }
         }
         .padding()
     }
