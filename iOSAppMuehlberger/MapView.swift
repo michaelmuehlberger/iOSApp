@@ -27,7 +27,7 @@ struct MapView: View {
     var body: some View {
         
         VStack {
-            Text((latitude2 != nil && longitude2 != nil) ? "Find the red circle outside Kapfenberg and click on it!" : "No pin set - go to \"Set Coordinate\" Tab to set location")
+            Text((latitude2 != nil && longitude2 != nil) ? "Find the pin (red circle) outside Kapfenberg and click on it!" : " Set Pin in \"Set Coordinate\" - currently no Pin set")
                 .padding()
             
             Map(coordinateRegion: .constant(MKCoordinateRegion(
@@ -42,7 +42,7 @@ struct MapView: View {
             }()) { location in
                 return MapAnnotation(coordinate: location.coordinate) {
                     Circle()
-                        .fill(Color.red)
+                        .fill(location.latitude == latitude2 && location.longitude == longitude2 ? Color.red : Color.blue)
                         .frame(width: 10, height: 10)
                         .onTapGesture {
                             if location.latitude == latitude2 && location.longitude == longitude2 {

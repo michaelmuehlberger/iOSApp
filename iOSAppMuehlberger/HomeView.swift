@@ -10,9 +10,13 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
+            
+            Text("SetAndFind")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.bottom, 10)
+            
             Text("""
-                 SetAndFine
-
                  SetAndFind is an iOS App in which you can set a Pin inside the "Set Coordinates" Tab. Afterwards you can go to the View Map Tab and find the set Pin (red circle). If you find it and tap on it, you win :) !
 
                 Features in the App:
