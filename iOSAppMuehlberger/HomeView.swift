@@ -11,13 +11,13 @@ struct HomeView: View {
     var body: some View {
         VStack {
             Text("""
-                 SetAndGo
+                 SetAndFine
 
-                 SetAndGo ist ein iOS App bei der Sie in dem Tab "SetCoordinates" Koordinaten eingeben können. Anschließend wird in der "MapView" von Kapfenberg aus eine Luftlinie zu den Koordinaten angegeben. Sind Sie in der MapView zu dem jeweiligen Ort navigiert, erscheint ein Pop Up und das Handy vibriert. Die eingegeben Daten in dem "SetCoordinates" werden mit SaveState gespeichert.
+                 SetAndFind is an iOS App in which you can set a Pin inside the "Set Coordinates" Tab. Afterwards you can go to the View Map Tab and find the set Pin (red circle). If you find it and tap on it, you win :) !
 
-                 Eingebaute Features der eigenen App:
-                 - Logo und UI (Layout mit Whitespace)
-                 - Navigation (Tab View + Pop Up)-
+                Features in the App:
+                 - Logo an UI (with Layout Whitespace)
+                 - Navigation (Tab View + Pop Up)
                  - Location Service (Showing Map)
                  - Data Binding (Saving State)
                  - Activator (Vibration)

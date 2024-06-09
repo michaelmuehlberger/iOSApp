@@ -10,11 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView().tabItem { Text("home") }
-            SetCoordinateView().tabItem { Text("set coordinates") }
-            MapView(latitude: 1, lonitude: 2).tabItem { Text("set map") }
+            HomeView().tabItem { Text("Home") }
+            SetCoordinateView().tabItem { Text("Set Coordinates") }
+            MapView().tabItem { Text("View Map") }
         }
-        .padding()
+        .padding( .horizontal, 10)
+        .padding( .vertical, 10)
     }
 }
 
